@@ -108,7 +108,7 @@ export const innerHeadingCss = css`
 
 export const videoCss = css`
   width: 100%;
-  height: auto;
+  height: 600px;
   margin-bottom: 30px;
 `;
 

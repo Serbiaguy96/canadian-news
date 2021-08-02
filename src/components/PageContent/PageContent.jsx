@@ -5,7 +5,7 @@ import facebook from "../../assets/images/facebook.png";
 import twitter from "../../assets/images/twitter.png";
 import image1 from "../../assets/images/image1.png";
 import image3 from "../../assets/images/image3.png";
-import video from "../../assets/images/video1.mp4";
+import video from "../../assets/images/video1.webm";
 import image5 from "../../assets/images/image5.png";
 import image6 from "../../assets/images/image6.png";
 import image7 from "../../assets/images/image7.jpg";
@@ -141,7 +141,7 @@ const PageContent = () => {
       </p>
       <p>Here’s his video testimonial:</p>
       <video css={S.videoCss} controls>
-        <source src={video} type="video/mp4" />
+        <source src={video} type="video/webm" />
       </video>
       <p>
         "The first thing I did after I got the link was open an account with The
